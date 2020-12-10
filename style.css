@@ -8,23 +8,20 @@
 
 
 .container {
-    margin-left: auto;
-    padding: 1rem;
+    margin: auto;
+    padding: 0.5rem;
     height: 20vh;
     background-color: var(--primary-color);
     color: var(--secondary-color);
-}
-
-h1 {
     text-align: center;
+    max-width: 400px;
 }
 
 .image {
-    display: inline-block;
-    max-width: 150px;
-    margin: auto;
-    text-align: center;
-    float:left;
+    float: left;
+    display: block;
+    max-width: 40%;
+    margin-left: 0rem;
 }
 
 main{
