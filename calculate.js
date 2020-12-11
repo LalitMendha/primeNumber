@@ -16,7 +16,7 @@ function clickHandler() {
 }
 
 function checkPrime(inputNumber) {
-    if(inputNumber === ""){
+    if(inputNumber === "1"){
         return "";
     }
 
