@@ -16,6 +16,10 @@ function clickHandler() {
 }
 
 function checkPrime(inputNumber) {
+    if(inputNumber === ""){
+        return "";
+    }
+
     if(inputNumber === "2"){
         return "X";
     }
